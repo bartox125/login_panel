@@ -590,10 +590,6 @@ video {
   min-height: 2rem;
 }
 
-.w-96 {
-  width: 24rem;
-}
-
 .w-fit {
   width: -moz-fit-content;
   width: fit-content;
@@ -601,14 +597,6 @@ video {
 
 .min-w-44 {
   min-width: 11rem;
-}
-
-.min-w-80 {
-  min-width: 20rem;
-}
-
-.min-w-96 {
-  min-width: 24rem;
 }
 
 .min-w-24 {
@@ -789,11 +777,6 @@ video {
 .text-violet-200 {
   --tw-text-opacity: 1;
   color: rgb(221 214 254 / var(--tw-text-opacity));
-}
-
-.text-emerald-200 {
-  --tw-text-opacity: 1;
-  color: rgb(167 243 208 / var(--tw-text-opacity));
 }
 
 .text-rose-200 {
