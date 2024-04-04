@@ -1,0 +1,21 @@
+<div class="grid justify-items-center space-y-8">
+    <p class="text-xl font-semibold">cookie authentication</p>
+    <div class="text-rose-100 space-x-2 w-fit flex">
+        <div class="bg-teal-600 p-2 min-w-24 text-center rounded-xl">
+            <a href="/register" class="">REGISTER</a>
+        </div>
+        <div class="bg-teal-600 p-2 min-w-24 text-center rounded-xl">
+            <a href="/" class="">INDEX</a>
+        </div>
+        <div class="bg-teal-600 p-2 min-w-24 text-center rounded-xl">
+            <a href="" class="">INDEX2</a>
+        </div>
+    </div>
+    <form action="/loginForm" method="post" class="space-y-5 flex flex-col" id="form">
+        <input class="border-2 border-neutral-500 rounded-md min-h-8 p-1" name="name" type="text" placeholder="Enter name" id="name">
+        <input class="border-2 border-neutral-500 rounded-md min-h-8 p-1" name="pass" type="password" placeholder="Enter pass" id="pass">
+        <button type="submit" class="bg-sky-200 p-3 rounded-xl border-2 border-neutral-500">LogIn</button>
+    </form>
+    <h1 class="text-6xl text-rose-400"><b>login page</b></h1>
+</div>
+<script src="js/login.js"></script>
